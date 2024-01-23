@@ -16,5 +16,4 @@ jobs:
         script: |
           cd mlops_deploy
           git pull
-          python3 script.py
         
