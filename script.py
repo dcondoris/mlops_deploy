@@ -1,4 +1,8 @@
-filename = "fichier_test.txt"
+from fastapi import FastAPI
 
-with open(filename, "w") as f:
-    f.write("Test de l'action.")
+api = FastAPI(title="MLOps")
+
+
+@api.get("/")
+def status():
+    return "Bonjour tout le monde !"
