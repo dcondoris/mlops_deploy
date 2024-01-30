@@ -5,4 +5,4 @@ api = FastAPI(title="MLOps")
 
 @api.get("/")
 def status():
-    return "Bonsoir tout le monde !"
+    return "Good evening everyone!"
